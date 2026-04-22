@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Console\CommandInterface;
+use Fnlla\\Console\ConsoleIO;
+
+final class {{class}} implements CommandInterface
+{
+    public function getName(): string
+    {
+        return '{{command}}';
+    }
+
+    public function getDescription(): string
+    {
+        return '{{description}}';
+    }
+
+    public function run(array $args, array $options, ConsoleIO $io, string $root): int
+    {
+        $io->line('Command executed.');
+        return 0;
+    }
+}

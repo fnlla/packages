@@ -1,0 +1,47 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Core\Controller;
+use Fnlla\\Http\Request;
+use Fnlla\\Http\Response;
+
+final class {{class}} extends Controller
+{
+    public function index(Request $request): Response
+    {
+        return Response::text('{{class}} index');
+    }
+
+    public function show(Request $request, string $id): Response
+    {
+        return Response::text('{{class}} show ' . $id);
+    }
+
+    public function create(Request $request): Response
+    {
+        return Response::text('{{class}} create');
+    }
+
+    public function store(Request $request): Response
+    {
+        return Response::text('{{class}} store');
+    }
+
+    public function edit(Request $request, string $id): Response
+    {
+        return Response::text('{{class}} edit ' . $id);
+    }
+
+    public function update(Request $request, string $id): Response
+    {
+        return Response::text('{{class}} update ' . $id);
+    }
+
+    public function destroy(Request $request, string $id): Response
+    {
+        return Response::text('{{class}} destroy ' . $id);
+    }
+}

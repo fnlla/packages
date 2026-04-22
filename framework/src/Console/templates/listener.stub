@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+final class {{class}}
+{
+    public function handle(object|string $event, array $payload = []): void
+    {
+        // Handle the event.
+    }
+}

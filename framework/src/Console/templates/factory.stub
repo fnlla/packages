@@ -1,0 +1,20 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use {{modelFqcn}};
+use Fnlla\\Orm\Factory;
+
+final class {{class}} extends Factory
+{
+    protected static string $model = {{modelClass}}::class;
+
+    public function definition(): array
+    {
+        return [
+            // 'name' => 'Example',
+        ];
+    }
+}

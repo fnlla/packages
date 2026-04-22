@@ -1,0 +1,17 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Core\Controller;
+use Fnlla\\Http\Request;
+use Fnlla\\Http\Response;
+
+final class {{class}} extends Controller
+{
+    public function __invoke(Request $request): Response
+    {
+        return Response::text('{{class}}');
+    }
+}

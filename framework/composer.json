@@ -1,0 +1,53 @@
+{
+    "name":  "fnlla/framework",
+    "description":  "Fnlla - AI-assisted PHP framework",
+    "homepage":  "https://techayo.co.uk",
+    "license":  "proprietary",
+    "authors":  [
+                    {
+                        "name":  "TechAyo",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Maintainer"
+                    },
+                    {
+                        "name":  "Marcin Kordyaczny",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Project Manager"
+                    }
+                ],
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5"
+                },
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\":  "src/"
+                               },
+                     "files":  [
+                                   "src/Support/global_helpers.php",
+                                   "src/Support/compat.php",
+                                   "src/Support/helpers.php"
+                               ]
+                 },
+    "bin":  [
+                "bin/fnlla"
+            ],
+    "extra":  {
+                  "fnlla":  {
+                                "providers":  [
+                                                  "Fnlla\\Database\\DatabaseServiceProvider",
+                                                  "Fnlla\\Cache\\CacheServiceProvider",
+                                                  "Fnlla\\Log\\LogServiceProvider",
+                                                  "Fnlla\\RequestLogging\\RequestLoggingServiceProvider",
+                                                  "Fnlla\\Session\\SessionServiceProvider",
+                                                  "Fnlla\\Cookie\\CookieServiceProvider",
+                                                  "Fnlla\\Csrf\\CsrfServiceProvider",
+                                                  "Fnlla\\Auth\\AuthServiceProvider",
+                                                  "Fnlla\\Orm\\OrmServiceProvider"
+                                              ]
+                            },
+                  "branch-alias":  {
+                                       "dev-main":  "3.0.x-dev"
+                                   }
+              }
+}

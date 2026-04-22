@@ -1,0 +1,1389 @@
+{
+    "packages": {
+        "fnlla/ai": {
+            "3.0.4": {
+                "name": "fnlla/ai",
+                "description": "AI client for OpenAI Responses API",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Ai\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Ai\\AiServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-ai-3.0.4.tar",
+                    "shasum": "de3e7d2a303887db66ec1296e9a07e871d1a55fd"
+                }
+            }
+        },
+        "fnlla/analytics": {
+            "3.0.4": {
+                "name": "fnlla/analytics",
+                "description": "Analytics event helpers for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Analytics\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Analytics\\AnalyticsServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-analytics-3.0.4.tar",
+                    "shasum": "798c3e68e1201d39a1e08ae11bc58b7ab7cddd61"
+                }
+            }
+        },
+        "fnlla/audit": {
+            "3.0.4": {
+                "name": "fnlla/audit",
+                "description": "Audit logging helpers for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Audit\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Audit\\AuditServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-audit-3.0.4.tar",
+                    "shasum": "e5383179e60cd536e4978fbcaa7cefe5b7b99292"
+                }
+            }
+        },
+        "fnlla/content": {
+            "3.0.4": {
+                "name": "fnlla/content",
+                "description": "Content repository helpers for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Content\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Content\\ContentServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-content-3.0.4.tar",
+                    "shasum": "f988d0cacb35046ee0d5ad913808164d0555d6fa"
+                }
+            }
+        },
+        "fnlla/debugbar": {
+            "3.0.4": {
+                "name": "fnlla/debugbar",
+                "description": "Fnlla debugbar module",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Debugbar\\": "src/"
+                    }
+                },
+                "license": "proprietary",
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Debugbar\\DebugbarServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-debugbar-3.0.4.tar",
+                    "shasum": "0ffa3c3723bdb268206ac9b3434a5d30fa58ee95"
+                }
+            }
+        },
+        "fnlla/deploy": {
+            "3.0.4": {
+                "name": "fnlla/deploy",
+                "description": "Deployment utilities for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Deploy\\": "src/"
+                    }
+                },
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-deploy-3.0.4.tar",
+                    "shasum": "5174901705cd1906b8cea84e1040b2c3d176ace5"
+                }
+            }
+        },
+        "fnlla/docs": {
+            "3.0.4": {
+                "name": "fnlla/docs",
+                "description": "Documentation automation for fnlla apps",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Docs\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Docs\\DocsServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-docs-3.0.4.tar",
+                    "shasum": "74d3ca0f2b46ada15061a1e6db4f24908456cf1a"
+                }
+            }
+        },
+        "fnlla/framework": {
+            "3.0.4": {
+                "name": "fnlla/framework",
+                "description": "Fnlla - AI-assisted PHP framework",
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "type": "library",
+                "require": {
+                    "php": ">=8.5"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\": "src/"
+                    },
+                    "files": [
+                        "src/Support/global_helpers.php",
+                        "src/Support/compat.php",
+                        "src/Support/helpers.php"
+                    ]
+                },
+                "bin": [
+                    "bin/fnlla"
+                ],
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Database\\DatabaseServiceProvider",
+                            "Fnlla\\Cache\\CacheServiceProvider",
+                            "Fnlla\\Log\\LogServiceProvider",
+                            "Fnlla\\RequestLogging\\RequestLoggingServiceProvider",
+                            "Fnlla\\Session\\SessionServiceProvider",
+                            "Fnlla\\Cookie\\CookieServiceProvider",
+                            "Fnlla\\Csrf\\CsrfServiceProvider",
+                            "Fnlla\\Auth\\AuthServiceProvider",
+                            "Fnlla\\Orm\\OrmServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-framework-3.0.4.tar",
+                    "shasum": "f1ff9482116f5f15d298cb958de020034e1422ce"
+                }
+            }
+        },
+        "fnlla/mail": {
+            "3.0.4": {
+                "name": "fnlla/mail",
+                "description": "Fnlla mail module (Symfony Mailer adapter)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "symfony/mailer": "^7",
+                    "symfony/mime": "^7"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Mail\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Mail\\MailServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-mail-3.0.4.tar",
+                    "shasum": "95a5db2ef61292d56b79a5e661c144863b706493"
+                }
+            }
+        },
+        "fnlla/mail-preview": {
+            "3.0.4": {
+                "name": "fnlla/mail-preview",
+                "description": "Fnlla mail preview routes and templates",
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\MailPreview\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\MailPreview\\MailPreviewServiceProvider"
+                        ]
+                    }
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-mail-preview-3.0.4.tar",
+                    "shasum": "ea4d1f9bae68052b8f26502c25ab831a153a2420"
+                }
+            }
+        },
+        "fnlla/monitoring": {
+            "3.0.4": {
+                "name": "fnlla/monitoring",
+                "description": "Monitoring utilities and metrics endpoint for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Monitoring\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Monitoring\\MonitoringServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-monitoring-3.0.4.tar",
+                    "shasum": "881fd48454fb9902b4664b4b3f3c70f2a867bb9c"
+                }
+            }
+        },
+        "fnlla/notifications": {
+            "3.0.4": {
+                "name": "fnlla/notifications",
+                "description": "Notification delivery (email/SMS) with API endpoints",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "fnlla/mail": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Notifications\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Notifications\\NotificationsServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-notifications-3.0.4.tar",
+                    "shasum": "b4a36132af1c6b5d6bcbc7a798afa029b4d55895"
+                }
+            }
+        },
+        "fnlla/oauth": {
+            "3.0.4": {
+                "name": "fnlla/oauth",
+                "description": "OAuth/OIDC adapter for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "league/oauth2-client": "^2.7"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\OAuth\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\OAuth\\OAuthServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-oauth-3.0.4.tar",
+                    "shasum": "8415b1658503b36b8cd9b46bf526baa1f3110c2b"
+                }
+            }
+        },
+        "fnlla/ops": {
+            "3.0.4": {
+                "name": "fnlla/ops",
+                "description": "Fnlla ops middleware bundle (security headers, CORS, rate limiting, redirects, maintenance, static cache, forms)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\SecurityHeaders\\": "src/SecurityHeaders/",
+                        "Fnlla\\Cors\\": "src/Cors/",
+                        "Fnlla\\RateLimit\\": "src/RateLimit/",
+                        "Fnlla\\Redirects\\": "src/Redirects/",
+                        "Fnlla\\Maintenance\\": "src/Maintenance/",
+                        "Fnlla\\CacheStatic\\": "src/CacheStatic/",
+                        "Fnlla\\Forms\\": "src/Forms/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\SecurityHeaders\\SecurityHeadersServiceProvider",
+                            "Fnlla\\Cors\\CorsServiceProvider",
+                            "Fnlla\\RateLimit\\RateLimitServiceProvider",
+                            "Fnlla\\Redirects\\RedirectsServiceProvider",
+                            "Fnlla\\Maintenance\\MaintenanceServiceProvider",
+                            "Fnlla\\CacheStatic\\CacheStaticServiceProvider",
+                            "Fnlla\\Forms\\FormsServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke-security-headers.php && php tests/smoke-cors.php && php tests/smoke-rate-limit.php && php tests/smoke-redirects.php && php tests/smoke-maintenance.php && php tests/smoke-cache-static.php && php tests/smoke-forms.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-ops-3.0.4.tar",
+                    "shasum": "db2bb2136f9c9f78ad0db96b97214bd1271d67fd"
+                }
+            }
+        },
+        "fnlla/pdf": {
+            "3.0.4": {
+                "name": "fnlla/pdf",
+                "description": "HTML-to-PDF rendering (Dompdf) with templates and API helpers",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "dompdf/dompdf": "^3.1"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Pdf\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Pdf\\PdfServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-pdf-3.0.4.tar",
+                    "shasum": "67a921c9478a3911f2f9305cd57947ac9e120cc0"
+                }
+            }
+        },
+        "fnlla/queue": {
+            "3.0.4": {
+                "name": "fnlla/queue",
+                "description": "Fnlla queue module",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Queue\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Queue\\QueueServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-queue-3.0.4.tar",
+                    "shasum": "f1f16b3f2d5820369be9750207ae1c7b2b0d6ae4"
+                }
+            }
+        },
+        "fnlla/rbac": {
+            "3.0.4": {
+                "name": "fnlla/rbac",
+                "description": "Fnlla RBAC module (roles, permissions, gate integration)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Rbac\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Rbac\\RbacServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-rbac-3.0.4.tar",
+                    "shasum": "6da669539a3bfc9f9e56bf7b22a15498dd6e20f6"
+                }
+            }
+        },
+        "fnlla/scheduler": {
+            "3.0.4": {
+                "name": "fnlla/scheduler",
+                "description": "Fnlla scheduler module",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Scheduler\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Scheduler\\ScheduleServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-scheduler-3.0.4.tar",
+                    "shasum": "23d3072925de4a90acf42ed0e339289fa627c7e1"
+                }
+            }
+        },
+        "fnlla/search": {
+            "3.0.4": {
+                "name": "fnlla/search",
+                "description": "Search adapter for Fnlla (Meilisearch driver)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Search\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Search\\SearchServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-search-3.0.4.tar",
+                    "shasum": "fddd93a86c304313e22eafb1408821a2c2187b7c"
+                }
+            }
+        },
+        "fnlla/sentry": {
+            "3.0.4": {
+                "name": "fnlla/sentry",
+                "description": "Sentry error tracking adapter for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "sentry/sentry": "^4.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Sentry\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Sentry\\SentryServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-sentry-3.0.4.tar",
+                    "shasum": "7f0942b08c5bbe98874a464b50e3350007b53684"
+                }
+            }
+        },
+        "fnlla/seo": {
+            "3.0.4": {
+                "name": "fnlla/seo",
+                "description": "SEO helpers for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Seo\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Seo\\SeoServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-seo-3.0.4.tar",
+                    "shasum": "1a24e0b586f4e16bd08162e679318487fab0b763"
+                }
+            }
+        },
+        "fnlla/settings": {
+            "3.0.4": {
+                "name": "fnlla/settings",
+                "description": "Key/value settings store for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Settings\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Settings\\SettingsServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-settings-3.0.4.tar",
+                    "shasum": "eac7536aa62d232aecb811f7b78c1b2d5b4817e2"
+                }
+            }
+        },
+        "fnlla/standard": {
+            "3.0.4": {
+                "name": "fnlla/standard",
+                "description": "Fnlla standard web stack (meta-package)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/audit": "^3.0",
+                    "fnlla/deploy": "^3.0",
+                    "fnlla/framework": "^3.0",
+                    "fnlla/ops": "^3.0",
+                    "fnlla/rbac": "^3.0",
+                    "fnlla/settings": "^3.0"
+                },
+                "require-dev": {
+                    "fnlla/debugbar": "^3.0",
+                    "fnlla/testing": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-standard-3.0.4.tar",
+                    "shasum": "b4c3619edaacfe214466abad71241d68c78ea3d6"
+                }
+            }
+        },
+        "fnlla/storage": {
+            "3.0.4": {
+                "name": "fnlla/storage",
+                "description": "Fnlla storage and image pipeline helpers",
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Storage\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Storage\\StorageServiceProvider"
+                        ]
+                    }
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-storage-3.0.4.tar",
+                    "shasum": "9670eb7e1c0086bbca18148e3eea2d81a52dfd21"
+                }
+            }
+        },
+        "fnlla/storage-s3": {
+            "3.0.4": {
+                "name": "fnlla/storage-s3",
+                "description": "S3 storage driver for Fnlla storage",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/storage": "^3.0",
+                    "aws/aws-sdk-php": "^3.0",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\StorageS3\\": "src/"
+                    }
+                },
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-storage-s3-3.0.4.tar",
+                    "shasum": "75a6f4f256c8166ce9cc9d8ce6e11b2ac5d4e73b"
+                }
+            }
+        },
+        "fnlla/stripe": {
+            "3.0.4": {
+                "name": "fnlla/stripe",
+                "description": "Stripe payments adapter for Fnlla",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "stripe/stripe-php": "^13.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Stripe\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Stripe\\StripeServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-stripe-3.0.4.tar",
+                    "shasum": "785687828b5fdc07d9d3803375073fe903d7e740"
+                }
+            }
+        },
+        "fnlla/tenancy": {
+            "3.0.4": {
+                "name": "fnlla/tenancy",
+                "description": "Fnlla multi-tenancy helpers",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Tenancy\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Tenancy\\TenancyServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-tenancy-3.0.4.tar",
+                    "shasum": "bc11a972f16c6e48f81fab76b9ac87fa971bf21b"
+                }
+            }
+        },
+        "fnlla/testing": {
+            "3.0.4": {
+                "name": "fnlla/testing",
+                "description": "Fnlla testing helpers (HTTP feature tests and assertions)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^12.5.22"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Testing\\": "src/"
+                    }
+                },
+                "bin": [
+                    "bin/fnlla-test"
+                ],
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-testing-3.0.4.tar",
+                    "shasum": "6d0d6c9a766306049f5ffcfdcc9740fd27fce660"
+                }
+            }
+        },
+        "fnlla/webmail": {
+            "3.0.4": {
+                "name": "fnlla/webmail",
+                "description": "Webmail backend API (IMAP/POP3/SMTP integration)",
+                "type": "library",
+                "require": {
+                    "php": ">=8.5",
+                    "fnlla/framework": "^3.0",
+                    "fnlla/mail": "^3.0",
+                    "fnlla/settings": "^3.0"
+                },
+                "homepage": "https://techayo.co.uk",
+                "license": "proprietary",
+                "authors": [
+                    {
+                        "name": "TechAyo",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Maintainer"
+                    },
+                    {
+                        "name": "Marcin Kordyaczny",
+                        "homepage": "https://techayo.co.uk",
+                        "role": "Project Manager"
+                    }
+                ],
+                "autoload": {
+                    "psr-4": {
+                        "Fnlla\\Webmail\\": "src/"
+                    }
+                },
+                "extra": {
+                    "fnlla": {
+                        "providers": [
+                            "Fnlla\\Webmail\\WebmailServiceProvider"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.0.x-dev"
+                    }
+                },
+                "scripts": {
+                    "test": "php tests/smoke.php"
+                },
+                "version": "3.0.4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-webmail-3.0.4.tar",
+                    "shasum": "32da96420456b37d59f0c7059c6acf4ffd23b336"
+                }
+            }
+        }
+    }
+}

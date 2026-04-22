@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Core\Container;
+use Fnlla\\Queue\JobInterface;
+
+final class {{class}} implements JobInterface
+{
+    public function handle(Container $app): void
+    {
+        // Handle the job.
+    }
+}

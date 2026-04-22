@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Http\Request;
+use Fnlla\\Support\Validator;
+use Fnlla\\Support\ValidationException;
+
+final class {{class}}
+{
+    public static function rules(): array
+    {
+        return [
+            // 'field' => 'required|string'
+        ];
+    }
+
+    public static function validate(Request $request): array
+    {
+        $validator = Validator::make($request->allInput(), self::rules());
+        if (!$validator->passes()) {
+            throw new ValidationException($validator->errors());
+        }
+        return $validator->validated();
+    }
+}

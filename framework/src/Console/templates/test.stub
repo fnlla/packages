@@ -1,0 +1,15 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Testing\TestCase;
+
+final class {{class}} extends TestCase
+{
+    public function test_example(): void
+    {
+        $this->assertTrue(true);
+    }
+}

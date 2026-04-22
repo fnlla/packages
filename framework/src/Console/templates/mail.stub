@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Mail\Address;
+use Fnlla\\Mail\Message;
+
+final class {{class}}
+{
+    public function toMessage(string $toEmail, string $toName = ''): Message
+    {
+        $from = new Address('noreply@example.com', 'Fnlla');
+        $to = $toName === '' ? [new Address($toEmail)] : [new Address($toEmail, $toName)];
+
+        return new Message(
+            from: $from,
+            to: $to,
+            subject: '{{subject}}',
+            text: '{{text}}'
+        );
+    }
+}

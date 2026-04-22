@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+final class {{class}}
+{
+    public function view(mixed $user, mixed $model): bool
+    {
+        return true;
+    }
+
+    public function create(mixed $user): bool
+    {
+        return true;
+    }
+
+    public function update(mixed $user, mixed $model): bool
+    {
+        return true;
+    }
+
+    public function delete(mixed $user, mixed $model): bool
+    {
+        return true;
+    }
+}

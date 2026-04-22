@@ -1,0 +1,8 @@
+/vendor/
+/.composer-cache/
+/.composer-home/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+/storage/logs/*

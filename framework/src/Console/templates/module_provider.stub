@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Fnlla\\Support\ServiceProvider;
+use Fnlla\\Core\Container;
+
+final class {{class}} extends ServiceProvider
+{
+    public function register(Container $app): void
+    {
+        // Register module services here.
+    }
+
+    public function boot(Container $app): void
+    {
+        // Boot module services here.
+    }
+}
