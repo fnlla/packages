@@ -1,0 +1,38 @@
+{
+    "name":  "fnlla/tenancy",
+    "description":  "Fnlla multi-tenancy helpers",
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5",
+                    "fnlla/framework":  "^3.0"
+                },
+    "homepage":  "https://techayo.co.uk",
+    "license":  "proprietary",
+    "authors":  [
+                    {
+                        "name":  "TechAyo",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Maintainer"
+                    },
+                    {
+                        "name":  "Marcin Kordyaczny",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Project Manager"
+                    }
+                ],
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\Tenancy\\":  "src/"
+                               }
+                 },
+    "extra":  {
+                  "fnlla":  {
+                                "providers":  [
+                                                  "Fnlla\\Tenancy\\TenancyServiceProvider"
+                                              ]
+                            },
+                  "branch-alias":  {
+                                       "dev-main":  "3.0.x-dev"
+                                   }
+              }
+}

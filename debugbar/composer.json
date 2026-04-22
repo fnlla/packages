@@ -1,0 +1,25 @@
+{
+    "name":  "fnlla/debugbar",
+    "description":  "Fnlla debugbar module",
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5",
+                    "fnlla/framework":  "^3.0"
+                },
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\Debugbar\\":  "src/"
+                               }
+                 },
+    "license":  "proprietary",
+    "extra":  {
+                  "fnlla":  {
+                                "providers":  [
+                                                  "Fnlla\\Debugbar\\DebugbarServiceProvider"
+                                              ]
+                            },
+                  "branch-alias":  {
+                                       "dev-main":  "3.0.x-dev"
+                                   }
+              }
+}

@@ -1,0 +1,23 @@
+{
+    "name":  "fnlla/storage",
+    "description":  "Fnlla storage and image pipeline helpers",
+    "homepage":  "https://techayo.co.uk",
+    "license":  "proprietary",
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5",
+                    "fnlla/framework":  "^3.0"
+                },
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\Storage\\":  "src/"
+                               }
+                 },
+    "extra":  {
+                  "fnlla":  {
+                                "providers":  [
+                                                  "Fnlla\\Storage\\StorageServiceProvider"
+                                              ]
+                            }
+              }
+}

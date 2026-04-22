@@ -1,0 +1,53 @@
+{
+    "name":  "fnlla/ops",
+    "description":  "Fnlla ops middleware bundle (security headers, CORS, rate limiting, redirects, maintenance, static cache, forms)",
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5",
+                    "fnlla/framework":  "^3.0"
+                },
+    "homepage":  "https://techayo.co.uk",
+    "license":  "proprietary",
+    "authors":  [
+                    {
+                        "name":  "TechAyo",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Maintainer"
+                    },
+                    {
+                        "name":  "Marcin Kordyaczny",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Project Manager"
+                    }
+                ],
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\SecurityHeaders\\":  "src/SecurityHeaders/",
+                                   "Fnlla\\Cors\\":  "src/Cors/",
+                                   "Fnlla\\RateLimit\\":  "src/RateLimit/",
+                                   "Fnlla\\Redirects\\":  "src/Redirects/",
+                                   "Fnlla\\Maintenance\\":  "src/Maintenance/",
+                                   "Fnlla\\CacheStatic\\":  "src/CacheStatic/",
+                                   "Fnlla\\Forms\\":  "src/Forms/"
+                               }
+                 },
+    "extra":  {
+                  "fnlla":  {
+                                "providers":  [
+                                                  "Fnlla\\SecurityHeaders\\SecurityHeadersServiceProvider",
+                                                  "Fnlla\\Cors\\CorsServiceProvider",
+                                                  "Fnlla\\RateLimit\\RateLimitServiceProvider",
+                                                  "Fnlla\\Redirects\\RedirectsServiceProvider",
+                                                  "Fnlla\\Maintenance\\MaintenanceServiceProvider",
+                                                  "Fnlla\\CacheStatic\\CacheStaticServiceProvider",
+                                                  "Fnlla\\Forms\\FormsServiceProvider"
+                                              ]
+                            },
+                  "branch-alias":  {
+                                       "dev-main":  "3.0.x-dev"
+                                   }
+              },
+    "scripts":  {
+                    "test":  "php tests/smoke-security-headers.php \u0026\u0026 php tests/smoke-cors.php \u0026\u0026 php tests/smoke-rate-limit.php \u0026\u0026 php tests/smoke-redirects.php \u0026\u0026 php tests/smoke-maintenance.php \u0026\u0026 php tests/smoke-cache-static.php \u0026\u0026 php tests/smoke-forms.php"
+                }
+}

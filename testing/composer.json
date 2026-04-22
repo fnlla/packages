@@ -1,0 +1,39 @@
+{
+    "name":  "fnlla/testing",
+    "description":  "Fnlla testing helpers (HTTP feature tests and assertions)",
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5",
+                    "fnlla/framework":  "^3.0"
+                },
+    "require-dev":  {
+                        "phpunit/phpunit":  "^12.5.22"
+                    },
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\Testing\\":  "src/"
+                               }
+                 },
+    "bin":  [
+                "bin/fnlla-test"
+            ],
+    "extra":  {
+                  "branch-alias":  {
+                                       "dev-main":  "3.0.x-dev"
+                                   }
+              },
+    "homepage":  "https://techayo.co.uk",
+    "license":  "proprietary",
+    "authors":  [
+                    {
+                        "name":  "TechAyo",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Maintainer"
+                    },
+                    {
+                        "name":  "Marcin Kordyaczny",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Project Manager"
+                    }
+                ]
+}

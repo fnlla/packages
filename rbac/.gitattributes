@@ -1,0 +1,3 @@
+/vendor/ export-ignore
+/.composer-cache/ export-ignore
+/.composer-home/ export-ignore

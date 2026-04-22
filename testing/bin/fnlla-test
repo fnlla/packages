@@ -1,0 +1,97 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require dirname(__DIR__, 3) . '/scripts/ensure-php85.php';
+
+$root = getcwd();
+$autoload = $root . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+if (!is_file($autoload)) {
+    fwrite(STDERR, "Autoload file not found: {$autoload}\n");
+    exit(1);
+}
+
+require $autoload;
+
+use Fnlla\Testing\TestCase;
+
+$testsDir = $root . DIRECTORY_SEPARATOR . 'tests';
+if (!is_dir($testsDir)) {
+    fwrite(STDERR, "Tests directory not found: {$testsDir}\n");
+    exit(1);
+}
+
+$files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($testsDir));
+$testFiles = [];
+foreach ($files as $file) {
+    if (!$file->isFile() || $file->getExtension() !== 'php') {
+        continue;
+    }
+    if (str_ends_with($file->getFilename(), 'Test.php')) {
+        $testFiles[] = $file->getPathname();
+    }
+}
+
+if ($testFiles === []) {
+    fwrite(STDOUT, "No tests found.\n");
+    exit(0);
+}
+
+$results = [];
+$failures = 0;
+
+foreach ($testFiles as $file) {
+    $before = get_declared_classes();
+    require $file;
+    $after = get_declared_classes();
+    $newClasses = array_values(array_diff($after, $before));
+
+    foreach ($newClasses as $class) {
+        if (!is_subclass_of($class, TestCase::class)) {
+            continue;
+        }
+
+        $methods = array_filter(get_class_methods($class), fn ($m) => str_starts_with($m, 'test'));
+        foreach ($methods as $method) {
+            $label = $class . '::' . $method;
+            try {
+                $instance = new $class($method);
+                $instance->setUp();
+                $instance->{$method}();
+                $instance->tearDown();
+                $results[] = [$label, 'OK', ''];
+            } catch (Throwable $e) {
+                $failures++;
+                $results[] = [$label, 'FAIL', $e->getMessage()];
+            }
+        }
+    }
+}
+
+$headers = ['Test', 'Status', 'Details'];
+$widths = array_map('strlen', $headers);
+foreach ($results as $row) {
+    $widths[0] = max($widths[0], strlen($row[0]));
+    $widths[1] = max($widths[1], strlen($row[1]));
+    $widths[2] = max($widths[2], strlen($row[2]));
+}
+
+$line = '+' . str_repeat('-', $widths[0] + 2)
+    . '+' . str_repeat('-', $widths[1] + 2)
+    . '+' . str_repeat('-', $widths[2] + 2) . "+\n";
+
+echo $line;
+printf("| %-" . $widths[0] . "s | %-" . $widths[1] . "s | %-" . $widths[2] . "s |\n", ...$headers);
+echo $line;
+foreach ($results as $row) {
+    printf(
+        "| %-" . $widths[0] . "s | %-" . $widths[1] . "s | %-" . $widths[2] . "s |\n",
+        $row[0],
+        $row[1],
+        $row[2]
+    );
+}
+echo $line;
+
+exit($failures > 0 ? 1 : 0);

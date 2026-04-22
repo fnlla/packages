@@ -1,0 +1,41 @@
+{
+    "name":  "fnlla/settings",
+    "description":  "Key/value settings store for Fnlla",
+    "type":  "library",
+    "require":  {
+                    "php":  "\u003e=8.5",
+                    "fnlla/framework":  "^3.0"
+                },
+    "homepage":  "https://techayo.co.uk",
+    "license":  "proprietary",
+    "authors":  [
+                    {
+                        "name":  "TechAyo",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Maintainer"
+                    },
+                    {
+                        "name":  "Marcin Kordyaczny",
+                        "homepage":  "https://techayo.co.uk",
+                        "role":  "Project Manager"
+                    }
+                ],
+    "autoload":  {
+                     "psr-4":  {
+                                   "Fnlla\\Settings\\":  "src/"
+                               }
+                 },
+    "extra":  {
+                  "fnlla":  {
+                                "providers":  [
+                                                  "Fnlla\\Settings\\SettingsServiceProvider"
+                                              ]
+                            },
+                  "branch-alias":  {
+                                       "dev-main":  "3.0.x-dev"
+                                   }
+              },
+    "scripts":  {
+                    "test":  "php tests/smoke.php"
+                }
+}
