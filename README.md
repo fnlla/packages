@@ -14,6 +14,11 @@ This repository is the public packages hub for the fnlla ecosystem.
 - Package paths in monorepo: `packages/*`
 - Framework core path in monorepo: `framework/`
 
+## Shared Test Helpers
+
+- `_shared/` contains test bootstrap helpers used by multiple packages.
+- It is not a standalone Composer package and is not meant to be published to Packagist.
+
 ## Public Split Repositories
 
 - `https://github.com/fnlla/framework-package` (`fnlla/framework`)
