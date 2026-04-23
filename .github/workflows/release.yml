@@ -1,0 +1,32 @@
+﻿name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag to release (for example v1.2.3).'
+        required: true
+        type: string
+      create_tag:
+        description: 'Create and push the tag from main before publishing release.'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  release-from-tag:
+    if: ${{ github.event_name == 'push' }}
+    uses: fnlla/.github/.github/workflows/reusable-release.yml@main
+
+  release-from-dispatch:
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+    uses: fnlla/.github/.github/workflows/reusable-release.yml@main
+    with:
+      tag_name: ${{ inputs.version }}
+      create_tag: ${{ inputs.create_tag }}
