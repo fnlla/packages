@@ -1,0 +1,14 @@
+name: Sync Community Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    uses: fnlla/.github/.github/workflows/reusable-sync-community-health.yml@main
