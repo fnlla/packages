@@ -42,8 +42,9 @@ The command reads all first-level package directories that contain `composer.jso
 
 ## GitHub Actions
 
-- Manual workflow: `.github/workflows/build-composer-repository.yml`
-- Input: `version` (for example `3.0.4`)
+- Automatic workflow on release tags: `.github/workflows/build-composer-repository.yml` (`push` on `v*`)
+- Manual workflow: `.github/workflows/build-composer-repository.yml` (`workflow_dispatch`)
+- Input (manual): optional `version` (for example `3.0.4`); if omitted on tag push, version is resolved from the tag name.
 - Result: commits refreshed `repository/` content to `main`
 
 ## Professional Release Baseline

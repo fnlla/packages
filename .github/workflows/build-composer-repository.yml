@@ -1,11 +1,14 @@
 name: Build Composer Repository
 
 on:
+  push:
+    tags:
+      - "v*"
   workflow_dispatch:
     inputs:
       version:
         description: "Release version, e.g. 3.0.4 or v3.0.4"
-        required: true
+        required: false
         type: string
 
 permissions:
@@ -17,7 +20,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -25,8 +28,26 @@ jobs:
           php-version: "8.5"
           extensions: zip
 
+      - name: Resolve version
+        id: version
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION=""
+          if [ "${GITHUB_EVENT_NAME}" = "push" ]; then
+            VERSION="${GITHUB_REF_NAME#v}"
+          else
+            VERSION="${{ inputs.version }}"
+            VERSION="${VERSION#v}"
+          fi
+          if [ -z "${VERSION}" ]; then
+            echo "ERROR: version is required (workflow_dispatch) or tag push must match v*."
+            exit 1
+          fi
+          echo "value=${VERSION}" >> "${GITHUB_OUTPUT}"
+
       - name: Build repository artifacts
-        run: php tools/build-composer-repository.php --version="${{ inputs.version }}" --dist-base-url="https://raw.githubusercontent.com/fnlla/packages/main/repository"
+        run: php tools/build-composer-repository.php --version="${{ steps.version.outputs.value }}" --dist-base-url="https://raw.githubusercontent.com/fnlla/packages/main/repository"
 
       - name: Commit repository artifacts
         run: |
@@ -37,5 +58,5 @@ jobs:
             exit 0
           fi
           git add repository
-          git commit -m "build(repository): refresh composer metadata for ${{ inputs.version }}"
+          git commit -m "build(repository): refresh composer metadata for ${{ steps.version.outputs.value }}"
           git push
