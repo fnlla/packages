@@ -43,9 +43,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-ai-3.0.4.tar",
-                    "shasum": "de3e7d2a303887db66ec1296e9a07e871d1a55fd"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-ai-3.0.4.zip",
+                    "shasum": "73766ba3fecf53c29a01ca1814b0109bf94ca143"
                 }
             }
         },
@@ -92,9 +92,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-analytics-3.0.4.tar",
-                    "shasum": "798c3e68e1201d39a1e08ae11bc58b7ab7cddd61"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-analytics-3.0.4.zip",
+                    "shasum": "c5fbbda4662a189dbd3ed24dbdfa6cfff6a3fffc"
                 }
             }
         },
@@ -141,9 +141,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-audit-3.0.4.tar",
-                    "shasum": "e5383179e60cd536e4978fbcaa7cefe5b7b99292"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-audit-3.0.4.zip",
+                    "shasum": "64bceb1f8637739ee775531aaf0b282455915d5b"
                 }
             }
         },
@@ -190,9 +190,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-content-3.0.4.tar",
-                    "shasum": "f988d0cacb35046ee0d5ad913808164d0555d6fa"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-content-3.0.4.zip",
+                    "shasum": "61e4fde04b8aba6c2ab6fed1b89d1c6298a97d35"
                 }
             }
         },
@@ -223,9 +223,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-debugbar-3.0.4.tar",
-                    "shasum": "0ffa3c3723bdb268206ac9b3434a5d30fa58ee95"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-debugbar-3.0.4.zip",
+                    "shasum": "6ce9769c6f95284026064da87c341ac7e9149b06"
                 }
             }
         },
@@ -267,9 +267,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-deploy-3.0.4.tar",
-                    "shasum": "5174901705cd1906b8cea84e1040b2c3d176ace5"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-deploy-3.0.4.zip",
+                    "shasum": "29f1ad585d084c8741da25865618addc52431979"
                 }
             }
         },
@@ -316,9 +316,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-docs-3.0.4.tar",
-                    "shasum": "74d3ca0f2b46ada15061a1e6db4f24908456cf1a"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-docs-3.0.4.zip",
+                    "shasum": "d3117fdfbbf064261c833f998fbfdeff4c52375f"
                 }
             }
         },
@@ -377,9 +377,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-framework-3.0.4.tar",
-                    "shasum": "f1ff9482116f5f15d298cb958de020034e1422ce"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-framework-3.0.4.zip",
+                    "shasum": "8dae5875d03c48b845f04879c4cbd816baa95469"
                 }
             }
         },
@@ -428,9 +428,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-mail-3.0.4.tar",
-                    "shasum": "95a5db2ef61292d56b79a5e661c144863b706493"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-mail-3.0.4.zip",
+                    "shasum": "0ebd7d0cc576a0d7dc2206b4cc93c5b6ab07bdff"
                 }
             }
         },
@@ -459,9 +459,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-mail-preview-3.0.4.tar",
-                    "shasum": "ea4d1f9bae68052b8f26502c25ab831a153a2420"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-mail-preview-3.0.4.zip",
+                    "shasum": "7fe1f48d44b880c662bc4b5841238cad263725ec"
                 }
             }
         },
@@ -508,9 +508,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-monitoring-3.0.4.tar",
-                    "shasum": "881fd48454fb9902b4664b4b3f3c70f2a867bb9c"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-monitoring-3.0.4.zip",
+                    "shasum": "f94dc2bff74b618e5e658d08bdb12aadaca59c94"
                 }
             }
         },
@@ -558,9 +558,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-notifications-3.0.4.tar",
-                    "shasum": "b4a36132af1c6b5d6bcbc7a798afa029b4d55895"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-notifications-3.0.4.zip",
+                    "shasum": "2e9670e6b58db137cbb066790c055dc04c2def32"
                 }
             }
         },
@@ -608,9 +608,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-oauth-3.0.4.tar",
-                    "shasum": "8415b1658503b36b8cd9b46bf526baa1f3110c2b"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-oauth-3.0.4.zip",
+                    "shasum": "cb3ace9c5af3bb7711b17e1253c1ef3b6b50ca02"
                 }
             }
         },
@@ -669,9 +669,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-ops-3.0.4.tar",
-                    "shasum": "db2bb2136f9c9f78ad0db96b97214bd1271d67fd"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-ops-3.0.4.zip",
+                    "shasum": "31cc126dd40d30da1edcaabf446cea306e66d00a"
                 }
             }
         },
@@ -719,9 +719,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-pdf-3.0.4.tar",
-                    "shasum": "67a921c9478a3911f2f9305cd57947ac9e120cc0"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-pdf-3.0.4.zip",
+                    "shasum": "9f096b95194fe7afbd12d250849877dc3194c24c"
                 }
             }
         },
@@ -768,9 +768,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-queue-3.0.4.tar",
-                    "shasum": "f1f16b3f2d5820369be9750207ae1c7b2b0d6ae4"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-queue-3.0.4.zip",
+                    "shasum": "48c76a6b5e7c01092a94fb2064adbd97db7509f0"
                 }
             }
         },
@@ -817,9 +817,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-rbac-3.0.4.tar",
-                    "shasum": "6da669539a3bfc9f9e56bf7b22a15498dd6e20f6"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-rbac-3.0.4.zip",
+                    "shasum": "3be23b06a999ca5b6cc8fb466b165cd4459e184b"
                 }
             }
         },
@@ -866,9 +866,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-scheduler-3.0.4.tar",
-                    "shasum": "23d3072925de4a90acf42ed0e339289fa627c7e1"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-scheduler-3.0.4.zip",
+                    "shasum": "735662d07e47a47563c1f8982c65913e9284c7f5"
                 }
             }
         },
@@ -915,9 +915,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-search-3.0.4.tar",
-                    "shasum": "fddd93a86c304313e22eafb1408821a2c2187b7c"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-search-3.0.4.zip",
+                    "shasum": "aff77a409f62bc958bce4a291e6dc27234dcfc8b"
                 }
             }
         },
@@ -965,9 +965,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-sentry-3.0.4.tar",
-                    "shasum": "7f0942b08c5bbe98874a464b50e3350007b53684"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-sentry-3.0.4.zip",
+                    "shasum": "0f68be01b9f335990adda917a59e4a354e7164f6"
                 }
             }
         },
@@ -1014,9 +1014,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-seo-3.0.4.tar",
-                    "shasum": "1a24e0b586f4e16bd08162e679318487fab0b763"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-seo-3.0.4.zip",
+                    "shasum": "cf41d6b530ae93f8eb10a271fb13b1954b0bdfd9"
                 }
             }
         },
@@ -1063,9 +1063,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-settings-3.0.4.tar",
-                    "shasum": "eac7536aa62d232aecb811f7b78c1b2d5b4817e2"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-settings-3.0.4.zip",
+                    "shasum": "765a3893a35f7f3b6315a1a385c2650dbea1bb19"
                 }
             }
         },
@@ -1108,9 +1108,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-standard-3.0.4.tar",
-                    "shasum": "b4c3619edaacfe214466abad71241d68c78ea3d6"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-standard-3.0.4.zip",
+                    "shasum": "3219456e868562c30a28eea6b1d95d449f3429da"
                 }
             }
         },
@@ -1139,9 +1139,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-storage-3.0.4.tar",
-                    "shasum": "9670eb7e1c0086bbca18148e3eea2d81a52dfd21"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-storage-3.0.4.zip",
+                    "shasum": "50b4b6bd0152f107e2c1018f0b8525120669c3ab"
                 }
             }
         },
@@ -1185,9 +1185,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-storage-s3-3.0.4.tar",
-                    "shasum": "75a6f4f256c8166ce9cc9d8ce6e11b2ac5d4e73b"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-storage-s3-3.0.4.zip",
+                    "shasum": "5526149d620d5abf9431c9af234801f76a6baa13"
                 }
             }
         },
@@ -1235,9 +1235,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-stripe-3.0.4.tar",
-                    "shasum": "785687828b5fdc07d9d3803375073fe903d7e740"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-stripe-3.0.4.zip",
+                    "shasum": "35c3eebe04f9e47d1f596b03e9b5c0607ff454c0"
                 }
             }
         },
@@ -1281,9 +1281,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-tenancy-3.0.4.tar",
-                    "shasum": "bc11a972f16c6e48f81fab76b9ac87fa971bf21b"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-tenancy-3.0.4.zip",
+                    "shasum": "1db11576801bfae81c8bf56b57bbbc5fc10322b3"
                 }
             }
         },
@@ -1328,9 +1328,9 @@
                 ],
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-testing-3.0.4.tar",
-                    "shasum": "6d0d6c9a766306049f5ffcfdcc9740fd27fce660"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-testing-3.0.4.zip",
+                    "shasum": "588a9796b1a4113574e9113b8a3ff14fc6785988"
                 }
             }
         },
@@ -1379,9 +1379,9 @@
                 },
                 "version": "3.0.4",
                 "dist": {
-                    "type": "tar",
-                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-webmail-3.0.4.tar",
-                    "shasum": "32da96420456b37d59f0c7059c6acf4ffd23b336"
+                    "type": "zip",
+                    "url": "https://raw.githubusercontent.com/fnlla/packages/main/repository/dist/fnlla-webmail-3.0.4.zip",
+                    "shasum": "222b1eb3c62dc49efb50ae7b429f636f0f7666c4"
                 }
             }
         }
